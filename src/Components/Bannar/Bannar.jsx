@@ -3,7 +3,7 @@ import React from 'react';
 
 const Bannar = () => {
     return (
-        <div className='min-h-screen w-177 h-62.5 mx-auto mt-6'>
+        <div className='w-177 h-62.5 mx-auto mt-6'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                 {/* In Progress */}
@@ -41,6 +41,9 @@ const Bannar = () => {
 
             </div>
         </div>
+
+
+
     );
 };
 
